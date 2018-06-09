@@ -202,6 +202,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 25.008635, y: 0.62635964}
   m_EdgeRadius: 0
+--- !u!95 &389467939 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95960837385157446, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+    type: 2}
+  m_PrefabInternal: {fileID: 768914271}
 --- !u!1001 &768914271
 Prefab:
   m_ObjectHideFlags: 0
@@ -298,6 +303,61 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114428266831264898, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114428266831264898, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114428266831264898, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114428266831264898, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224787385185661280, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224287302446063808, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114618124519707314, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114618124519707314, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114618124519707314, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114618124519707314, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114618124519707314, guid: 12f6f4ac54084e244be2d3a79b88d7fc,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f6f4ac54084e244be2d3a79b88d7fc, type: 2}
@@ -735,57 +795,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1544050675
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1544050677}
-  - component: {fileID: 1544050676}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1544050676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1544050675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a43d84cda3857542ab4aa42bde597bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 24300002, guid: 95c60767abaa68c4d853ec1d2825dba1, type: 2}
-  sounds:
-  - name: Test
-    clip: {fileID: 8300000, guid: 5d8455fb534849442ad490965ff71279, type: 3}
-    volume: 0.795
-    volumeVariance: 0.657
-    pitch: 2.01
-    pitchVariance: 0.372
-    loop: 1
-    mixerGroup: {fileID: 24300002, guid: 95c60767abaa68c4d853ec1d2825dba1, type: 2}
-    source: {fileID: 0}
---- !u!4 &1544050677
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1544050675}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.808284, y: 10.495399, z: -10.071165}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1591796262
 Prefab:
   m_ObjectHideFlags: 0
@@ -861,6 +870,106 @@ Transform:
   m_Father: {fileID: 28865492}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1617431506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1200541952383018, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+    type: 2}
+  m_PrefabInternal: {fileID: 1891580597}
+--- !u!82 &1617431507
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1617431506}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1807891959
 Prefab:
   m_ObjectHideFlags: 0
@@ -913,7 +1022,7 @@ Prefab:
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4259822103917744, guid: 8a5185b4b2eb75e4990a7e6ac6926410, type: 2}
       propertyPath: m_LocalPosition.x
@@ -950,12 +1059,12 @@ Prefab:
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[1].narratorText
-      value: Nothing interesting. Nothing worth noting anyway.
+      value: Marcus takes a shower like usual
       objectReference: {fileID: 0}
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[1].level
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
@@ -970,17 +1079,18 @@ Prefab:
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[1].speechTiming.time
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[2].narratorText
-      value: Just another unfortunately normal day.
+      value: Before being interupted by the overwhelming cold water running down his
+        back
       objectReference: {fileID: 0}
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[2].level
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
@@ -995,7 +1105,7 @@ Prefab:
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[2].speechTiming.time
-      value: 15
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
@@ -1162,7 +1272,7 @@ Prefab:
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[0].speechTiming.time
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
@@ -1172,7 +1282,52 @@ Prefab:
     - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
         type: 2}
       propertyPath: naration.Array.data[0].events.function
-      value: shower
+      value: Shower
+      objectReference: {fileID: 0}
+    - target: {fileID: 114364634379972276, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: showerSoundSource
+      value: 
+      objectReference: {fileID: 1617431507}
+    - target: {fileID: 114364634379972276, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: showerSounds
+      value: 
+      objectReference: {fileID: 8300000, guid: 4dcd8f2dc477f5e4aa277ee503048ee8, type: 3}
+    - target: {fileID: 114364634379972276, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: fadeAnimation
+      value: 
+      objectReference: {fileID: 389467939}
+    - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: naration.Array.data[1].events.hasEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: naration.Array.data[1].events.function
+      value: Shower
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: naration.Array.data[2].events.hasEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: naration.Array.data[2].events.function
+      value: Shower
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: naration.Array.data[0].events.time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125435654739702, guid: 8a5185b4b2eb75e4990a7e6ac6926410,
+        type: 2}
+      propertyPath: naration.Array.data[0].speechTiming.timed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a5185b4b2eb75e4990a7e6ac6926410, type: 2}

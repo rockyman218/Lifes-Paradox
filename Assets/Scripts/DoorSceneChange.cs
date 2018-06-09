@@ -21,7 +21,7 @@ public class DoorSceneChange : MonoBehaviour {
 	{
 		if(other.gameObject.tag == "Player"){
             Fade();
-            Invoke("changeScene", 4f);
+            Invoke("ChangeScene", 4f);
 		}
 	}
 

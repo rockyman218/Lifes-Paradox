@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Testing.unity
+    path: Assets/Scenes/Begginging.unity
     guid: 862fffb9da49a2743b1a1c04c6f5d593
+  - enabled: 1
+    path: Assets/Scenes/BathroomScene.unity
+    guid: 6b721d93b8bf5ae49827e8bff0d011d3
   m_configObjects: {}

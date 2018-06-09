@@ -12,8 +12,8 @@ public class WorldEvents : MonoBehaviour {
     [Header("Level 2")]
     [Tooltip("Shower Sounds")]
     public AudioClip showerSounds;
-
     public AudioSource showerSoundSource;
+    public Animator fadeAnimation;
 
     public void RestartScene()
     {
@@ -27,4 +27,8 @@ public class WorldEvents : MonoBehaviour {
         bathroomDoor.SetActive(true);
     }
 
+    public void Shower(){
+        showerSoundSource.PlayOneShot(showerSounds,1f);
+        fadeAnimation.SetTrigger("isInShower");
+    }
 }
